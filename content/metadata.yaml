@@ -12,8 +12,7 @@ keywords:
   - reproducibility
 lang: en-US
 authors:
-  - github: taylordm
-    name: Deanne M. Taylor
+  - name: Deanne M. Taylor
     initials: DMT
     affiliations:
       - Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia, Philadelphia, Pennsylvania, USA
