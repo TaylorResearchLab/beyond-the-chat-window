@@ -4,6 +4,8 @@ output-file: output/manuscript.pdf
 pdf-engine: weasyprint
 pdf-engine-opts:
 - '--presentational-hints'
+css:
+- build/themes/letter.css
 html-math-method:
   method: webtex
   url: 'https://latex.codecogs.com/svg.latex?'
