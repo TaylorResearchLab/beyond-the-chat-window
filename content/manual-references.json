@@ -8,13 +8,7 @@
     "container-title": "arXiv",
     "publisher": "arXiv",
     "issued": {
-      "date-parts": [
-        [
-          2024,
-          11,
-          4
-        ]
-      ]
+      "date-parts": [[2024, 11, 4]]
     },
     "author": [
       {"given": "Sirui", "family": "Hong"},
@@ -32,6 +26,23 @@
       {"given": "Lingfeng", "family": "Xiao"},
       {"given": "Chenglin", "family": "Wu"},
       {"given": "Jürgen", "family": "Schmidhuber"}
+    ]
+  },
+  {
+    "id": "doi:10.1609/aimag.v7i2.537",
+    "type": "article-journal",
+    "title": "The Blackboard Model of Problem Solving and the Evolution of Blackboard Architectures",
+    "DOI": "10.1609/aimag.v7i2.537",
+    "URL": "https://doi.org/10.1609/aimag.v7i2.537",
+    "container-title": "AI Magazine",
+    "volume": "7",
+    "issue": "2",
+    "page": "38-53",
+    "issued": {
+      "date-parts": [[1986]]
+    },
+    "author": [
+      {"given": "H. Penny", "family": "Nii"}
     ]
   }
 ]
