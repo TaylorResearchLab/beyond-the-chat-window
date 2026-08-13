@@ -33,7 +33,7 @@ on:
       MANUBOT_USE_DOCKER:
         type: boolean
         description: Use Docker to generate PDF
-        default: true
+        default: false
 jobs:
   manubot:
     name: Manubot
@@ -42,6 +42,8 @@ jobs:
       contents: write
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
+      # Use WeasyPrint so CSS controls US Letter page size consistently.
+      MANUBOT_USE_DOCKER: false
       # Set SPELLCHECK to true/false for whether to check spelling in this action.
       # For workflow dispatch jobs, this SPELLCHECK setting will be overridden by the user input.
       SPELLCHECK: true
