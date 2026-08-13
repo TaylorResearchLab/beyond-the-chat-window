@@ -1,3 +1,9 @@
+/* Publication PDF: US Letter with no decorative identity icons. */
+img.inline_icon,
+#correspondence {
+  display: none !important;
+}
+
 @media print {
   @page {
     size: Letter;
