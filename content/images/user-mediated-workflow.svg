@@ -1,89 +1,82 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
   <title id="title">User-mediated collaboration workflow</title>
-  <desc id="desc">GPT and Claude exchange shared project state through Notion. The User assigns work, governs accepted state, reviews and merges GitHub changes, and exclusively controls protected execution. Neither agent connects directly to protected compute.</desc>
+  <desc id="desc">GPT and Claude read and write shared project state in Notion. The User prompts and reviews both agents, governs accepted state, controls GitHub merge, and exclusively authorizes protected execution. Neither agent connects directly to protected compute.</desc>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L0,6 L9,3 z" fill="#303030"/>
     </marker>
     <style>
       .label { font-family: Arial, Helvetica, sans-serif; fill: #111111; text-anchor: middle; }
-      .node-title { font-size: 26px; font-weight: 700; }
+      .node-title { font-size: 25px; font-weight: 700; }
       .node-sub { font-size: 16px; }
-      .edge { stroke: #303030; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
-      .shared { stroke: #303030; stroke-width: 2.5; fill: none; marker-start: url(#arrow); marker-end: url(#arrow); }
-      .edge-label { font-family: Arial, Helvetica, sans-serif; font-size: 15px; fill: #303030; text-anchor: middle; }
-      .layer-label { font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 1px; fill: #555555; text-anchor: middle; }
+      .edge { stroke: #303030; stroke-width: 2.4; fill: none; marker-end: url(#arrow); }
+      .shared { stroke: #303030; stroke-width: 2.4; fill: none; marker-start: url(#arrow); marker-end: url(#arrow); }
+      .edge-label { font-family: Arial, Helvetica, sans-serif; font-size: 14px; fill: #303030; text-anchor: middle; }
     </style>
   </defs>
 
-  <text x="210" y="35" class="layer-label">AGENT PLATFORM</text>
-  <text x="600" y="35" class="layer-label">USER GOVERNANCE</text>
-  <text x="990" y="35" class="layer-label">AGENT PLATFORM</text>
+  <rect x="40" y="55" width="280" height="125" rx="16" fill="#f7f7f7" stroke="#222222" stroke-width="2.5"/>
+  <text x="180" y="104" class="label node-title">GPT</text>
+  <text x="180" y="137" class="label node-sub">reasoning, coding, review</text>
+  <text x="180" y="162" class="label node-sub">and sandbox testing</text>
 
-  <rect x="60" y="70" width="300" height="125" rx="16" fill="#f7f7f7" stroke="#222222" stroke-width="2.5"/>
-  <text x="210" y="118" class="label node-title">GPT</text>
-  <text x="210" y="151" class="label node-sub">reasoning, coding, review</text>
-  <text x="210" y="176" class="label node-sub">and sandbox testing</text>
+  <rect x="430" y="50" width="340" height="145" rx="16" fill="#e9eef3" stroke="#222222" stroke-width="2.5"/>
+  <text x="600" y="98" class="label node-title">NOTION</text>
+  <text x="600" y="131" class="label node-sub">Collaboration Log, notebooks</text>
+  <text x="600" y="156" class="label node-sub">handoffs and canonical state</text>
+  <text x="600" y="181" class="label node-sub">review routing and decisions</text>
 
-  <rect x="440" y="55" width="320" height="165" rx="18" fill="#ffffff" stroke="#111111" stroke-width="4"/>
-  <text x="600" y="110" class="label node-title">USER</text>
-  <text x="600" y="143" class="label node-sub">scientific lead and collaborator</text>
-  <text x="600" y="168" class="label node-sub">project manager and adjudicator</text>
-  <text x="600" y="193" class="label node-sub">custody and release authority</text>
+  <rect x="880" y="55" width="280" height="125" rx="16" fill="#f7f7f7" stroke="#222222" stroke-width="2.5"/>
+  <text x="1020" y="104" class="label node-title">CLAUDE</text>
+  <text x="1020" y="137" class="label node-sub">reasoning, coding, review</text>
+  <text x="1020" y="162" class="label node-sub">and sandbox testing</text>
 
-  <rect x="840" y="70" width="300" height="125" rx="16" fill="#f7f7f7" stroke="#222222" stroke-width="2.5"/>
-  <text x="990" y="118" class="label node-title">CLAUDE</text>
-  <text x="990" y="151" class="label node-sub">reasoning, coding, review</text>
-  <text x="990" y="176" class="label node-sub">and sandbox testing</text>
+  <rect x="420" y="290" width="360" height="170" rx="18" fill="#ffffff" stroke="#111111" stroke-width="4"/>
+  <text x="600" y="342" class="label node-title">USER</text>
+  <text x="600" y="375" class="label node-sub">scientific lead and collaborator</text>
+  <text x="600" y="400" class="label node-sub">project manager and adjudicator</text>
+  <text x="600" y="425" class="label node-sub">custody and release authority</text>
 
-  <text x="210" y="515" class="layer-label">VERSIONED ARTIFACTS</text>
-  <text x="600" y="475" class="layer-label">SHARED PROJECT RECORD</text>
-  <text x="990" y="515" class="layer-label">AUTHORITATIVE EXECUTION</text>
+  <rect x="100" y="575" width="300" height="130" rx="16" fill="#f2f2f2" stroke="#222222" stroke-width="2.5"/>
+  <text x="250" y="622" class="label node-title">GITHUB</text>
+  <text x="250" y="655" class="label node-sub">code, manuscript, commits</text>
+  <text x="250" y="680" class="label node-sub">pull requests and CI</text>
 
-  <rect x="60" y="535" width="300" height="135" rx="16" fill="#f2f2f2" stroke="#222222" stroke-width="2.5"/>
-  <text x="210" y="582" class="label node-title">GITHUB</text>
-  <text x="210" y="615" class="label node-sub">code, manuscript, commits</text>
-  <text x="210" y="640" class="label node-sub">pull requests and CI</text>
+  <rect x="800" y="575" width="320" height="130" rx="16" fill="#e6e6e6" stroke="#222222" stroke-width="2.5"/>
+  <text x="960" y="616" class="label node-title">PROTECTED</text>
+  <text x="960" y="646" class="label node-title">COMPUTE</text>
+  <text x="960" y="678" class="label node-sub">private data and authoritative runs</text>
 
-  <rect x="440" y="495" width="320" height="150" rx="16" fill="#e9eef3" stroke="#222222" stroke-width="2.5"/>
-  <text x="600" y="543" class="label node-title">NOTION</text>
-  <text x="600" y="576" class="label node-sub">Collaboration Log, notebooks</text>
-  <text x="600" y="601" class="label node-sub">handoffs and canonical state</text>
-  <text x="600" y="626" class="label node-sub">review routing and decisions</text>
+  <path d="M320,108 L430,108" class="shared"/>
+  <text x="375" y="87" class="edge-label">read / write</text>
+  <text x="375" y="103" class="edge-label">shared state</text>
 
-  <rect x="840" y="535" width="300" height="135" rx="16" fill="#e6e6e6" stroke="#222222" stroke-width="2.5"/>
-  <text x="990" y="582" class="label node-title">PROTECTED COMPUTE</text>
-  <text x="990" y="615" class="label node-sub">private data and</text>
-  <text x="990" y="640" class="label node-sub">authoritative runs</text>
+  <path d="M770,108 L880,108" class="shared"/>
+  <text x="825" y="87" class="edge-label">read / write</text>
+  <text x="825" y="103" class="edge-label">shared state</text>
 
-  <path d="M440,105 C405,95 388,101 360,118" class="edge"/>
-  <text x="400" y="82" class="edge-label">prompt / assign</text>
-  <path d="M360,164 C390,188 412,188 440,174" class="edge"/>
-  <text x="400" y="211" class="edge-label">analysis / review</text>
+  <path d="M445,315 C370,285 300,230 265,180" class="edge"/>
+  <text x="340" y="245" class="edge-label">prompt / assign</text>
+  <path d="M215,180 C270,255 345,315 420,355" class="edge"/>
+  <text x="290" y="325" class="edge-label">analysis / review</text>
 
-  <path d="M760,105 C795,95 812,101 840,118" class="edge"/>
-  <text x="800" y="82" class="edge-label">prompt / assign</text>
-  <path d="M840,164 C810,188 788,188 760,174" class="edge"/>
-  <text x="800" y="211" class="edge-label">analysis / review</text>
+  <path d="M755,315 C830,285 900,230 935,180" class="edge"/>
+  <text x="860" y="245" class="edge-label">prompt / assign</text>
+  <path d="M985,180 C930,255 855,315 780,355" class="edge"/>
+  <text x="910" y="325" class="edge-label">analysis / review</text>
 
-  <path d="M285,195 C340,300 425,410 500,495" class="shared"/>
-  <text x="365" y="338" class="edge-label">read / write shared state</text>
+  <path d="M585,290 L585,195" class="edge"/>
+  <text x="520" y="244" class="edge-label">govern state</text>
+  <path d="M615,195 L615,290" class="edge"/>
+  <text x="683" y="244" class="edge-label">history / queue</text>
 
-  <path d="M915,195 C860,300 775,410 700,495" class="shared"/>
-  <text x="835" y="338" class="edge-label">read / write shared state</text>
+  <path d="M470,440 C395,490 330,535 285,575" class="edge"/>
+  <text x="365" y="510" class="edge-label">review / merge</text>
+  <path d="M220,575 C275,520 345,470 430,420" class="edge"/>
+  <text x="300" y="550" class="edge-label">diffs / CI</text>
 
-  <path d="M585,220 L585,495" class="edge"/>
-  <text x="520" y="355" class="edge-label">govern accepted state</text>
-  <path d="M615,495 L615,220" class="edge"/>
-  <text x="682" y="374" class="edge-label">history / review queue</text>
-
-  <path d="M485,205 C375,305 275,410 220,535" class="edge"/>
-  <text x="305" y="423" class="edge-label">review / merge</text>
-  <path d="M250,535 C330,415 405,315 510,215" class="edge"/>
-  <text x="382" y="452" class="edge-label">diffs / CI results</text>
-
-  <path d="M715,205 C825,305 925,410 980,535" class="edge"/>
-  <text x="895" y="423" class="edge-label">authorize / execute</text>
-  <path d="M950,535 C870,415 795,315 690,215" class="edge"/>
-  <text x="818" y="452" class="edge-label">authoritative results</text>
+  <path d="M730,440 C805,490 870,535 915,575" class="edge"/>
+  <text x="835" y="510" class="edge-label">authorize / execute</text>
+  <path d="M980,575 C925,520 855,470 770,420" class="edge"/>
+  <text x="900" y="550" class="edge-label">authoritative results</text>
 </svg>
