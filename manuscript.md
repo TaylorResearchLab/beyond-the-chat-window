@@ -27,8 +27,8 @@ header-includes: |
   <meta name="dc.date" content="2026-08-13" />
   <meta name="citation_publication_date" content="2026-08-13" />
   <meta property="article:published_time" content="2026-08-13" />
-  <meta name="dc.modified" content="2026-08-13T12:42:53+00:00" />
-  <meta property="article:modified_time" content="2026-08-13T12:42:53+00:00" />
+  <meta name="dc.modified" content="2026-08-13T21:06:49+00:00" />
+  <meta property="article:modified_time" content="2026-08-13T21:06:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/778e82d92a2752333c0b5337c5d98f41445c5a7c/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/778e82d92a2752333c0b5337c5d98f41445c5a7c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/778e82d92a2752333c0b5337c5d98f41445c5a7c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/46c8f6ce08847b5d30b9a0dd65dbf818508d26b3/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/46c8f6ce08847b5d30b9a0dd65dbf818508d26b3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/46c8f6ce08847b5d30b9a0dd65dbf818508d26b3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -68,9 +68,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://TaylorResearchLab.github.io/beyond-the-chat-window/v/778e82d92a2752333c0b5337c5d98f41445c5a7c/))
+([permalink](https://TaylorResearchLab.github.io/beyond-the-chat-window/v/46c8f6ce08847b5d30b9a0dd65dbf818508d26b3/))
 was automatically generated
-from [TaylorResearchLab/beyond-the-chat-window@778e82d](https://github.com/TaylorResearchLab/beyond-the-chat-window/tree/778e82d92a2752333c0b5337c5d98f41445c5a7c)
+from [TaylorResearchLab/beyond-the-chat-window@46c8f6c](https://github.com/TaylorResearchLab/beyond-the-chat-window/tree/46c8f6ce08847b5d30b9a0dd65dbf818508d26b3)
 on August 13, 2026.
 </em></small>
 
