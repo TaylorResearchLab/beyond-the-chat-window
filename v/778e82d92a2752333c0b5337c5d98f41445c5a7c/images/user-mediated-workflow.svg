@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">User-mediated collaboration workflow</title>
+<desc id="desc">The User mediates work among GPT, Claude, Notion, GitHub, and protected compute.</desc>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+    <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+  </marker>
+  <style>
+    .box { fill: #f7f7f7; stroke: #222; stroke-width: 2.5; rx: 18; }
+    .center { fill: #ffffff; stroke: #111; stroke-width: 4; }
+    .label { font-family: Arial, Helvetica, sans-serif; fill: #111; text-anchor: middle; }
+    .title { font-size: 31px; font-weight: 700; }
+    .sub { font-size: 21px; }
+    .edge { stroke: #333; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    .bi { stroke: #333; stroke-width: 3; fill: none; marker-end: url(#arrow); marker-start: url(#arrow); }
+    .edge-label { font-family: Arial, Helvetica, sans-serif; font-size: 18px; fill: #333; text-anchor: middle; }
+  </style>
+</defs>
+
+<rect x="420" y="245" width="360" height="180" class="box center"/>
+<text x="600" y="310" class="label title">USER</text>
+<text x="600" y="350" class="label sub">scientific lead, collaborator,</text>
+<text x="600" y="382" class="label sub">project manager, adjudicator</text>
+
+<rect x="70" y="80" width="300" height="130" class="box"/>
+<text x="220" y="132" class="label title">GPT</text>
+<text x="220" y="170" class="label sub">reasoning, code, review, sandbox</text>
+
+<rect x="830" y="80" width="300" height="130" class="box"/>
+<text x="980" y="132" class="label title">CLAUDE</text>
+<text x="980" y="170" class="label sub">reasoning, code, review, sandbox</text>
+
+<rect x="70" y="510" width="300" height="130" class="box"/>
+<text x="220" y="562" class="label title">NOTION</text>
+<text x="220" y="600" class="label sub">log, notebooks, handoffs, state</text>
+
+<rect x="450" y="525" width="300" height="130" class="box"/>
+<text x="600" y="577" class="label title">GITHUB</text>
+<text x="600" y="615" class="label sub">code, manuscript, commits, PRs</text>
+
+<rect x="830" y="510" width="300" height="130" class="box"/>
+<text x="980" y="562" class="label title">PROTECTED COMPUTE</text>
+<text x="980" y="600" class="label sub">private data, authoritative runs</text>
+
+<path d="M455,265 C380,215 330,190 300,190" class="bi"/>
+<path d="M745,265 C820,215 870,190 900,190" class="bi"/>
+<text x="400" y="205" class="edge-label">prompt, mediate</text>
+<text x="800" y="205" class="edge-label">prompt, mediate</text>
+
+<path d="M450,405 C370,455 305,500 280,525" class="bi"/>
+<text x="360" y="470" class="edge-label">maintain state</text>
+
+<path d="M600,425 L600,525" class="bi"/>
+<text x="700" y="485" class="edge-label">review and merge</text>
+
+<path d="M750,405 C830,455 895,500 920,525" class="bi"/>
+<text x="850" y="470" class="edge-label">authorize runs</text>
+
+<path d="M260,210 C245,320 230,410 220,510" class="bi"/>
+<path d="M940,210 C955,320 970,410 980,510" class="bi"/>
+<path d="M370,575 L450,575" class="bi"/>
+<path d="M750,575 L830,575" class="bi"/>
+
+<text x="600" y="690" class="label sub">No autonomous loop: the User mediates attention, evidence, and acceptance.</text>
+</svg>
