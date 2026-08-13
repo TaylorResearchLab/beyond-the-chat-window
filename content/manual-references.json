@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "arxiv:2308.00352",
+    "type": "report",
+    "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+    "URL": "https://arxiv.org/abs/2308.00352",
+    "number": "2308.00352",
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {"given": "Sirui", "family": "Hong"},
+      {"given": "Mingchen", "family": "Zhuge"},
+      {"given": "Jiaqi", "family": "Chen"},
+      {"given": "Xiawu", "family": "Zheng"},
+      {"given": "Yuheng", "family": "Cheng"},
+      {"given": "Ceyao", "family": "Zhang"},
+      {"given": "Jinlin", "family": "Wang"},
+      {"given": "Zili", "family": "Wang"},
+      {"given": "Steven Ka Shing", "family": "Yau"},
+      {"given": "Zijuan", "family": "Lin"},
+      {"given": "Liyang", "family": "Zhou"},
+      {"given": "Chenyu", "family": "Ran"},
+      {"given": "Lingfeng", "family": "Xiao"},
+      {"given": "Chenglin", "family": "Wu"},
+      {"given": "Jürgen", "family": "Schmidhuber"}
+    ]
+  }
+]
