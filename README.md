@@ -18,9 +18,9 @@ See [`MANUSCRIPT_WORKFLOW.md`](MANUSCRIPT_WORKFLOW.md) and [`CONTRIBUTING.md`](C
 
 ## Public resources
 
-- Public Notion Collaboration Log template: `PUBLIC_NOTION_TEMPLATE_URL`
 - HTML manuscript: `https://TaylorResearchLab.github.io/beyond-the-chat-window/`
 - PDF manuscript: `https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf`
+- Sanitized Collaboration Log template: planned companion resource
 
 ## License
 
