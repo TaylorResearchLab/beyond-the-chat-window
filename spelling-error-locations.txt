@@ -33,7 +33,8 @@ content/05.corpus.md:5:recomputation
 content/05.observations.md:11:Handoffs
 content/06.failures.md:7:handoff
 content/06.failures.md:10:SHA
-content/07.tooling-limits.md:7:undercounted
+content/07.tooling-limits.md:11:handoff
+content/07.tooling-limits.md:13:undercounted
 content/10.future-work.md:3:reproducibility
 content/90.back-matter.md:3:GPT
 content/90.back-matter.md:11:GPT

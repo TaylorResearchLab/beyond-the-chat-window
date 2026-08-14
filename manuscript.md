@@ -27,8 +27,8 @@ header-includes: |
   <meta name="dc.date" content="2026-08-14" />
   <meta name="citation_publication_date" content="2026-08-14" />
   <meta property="article:published_time" content="2026-08-14" />
-  <meta name="dc.modified" content="2026-08-14T10:46:08+00:00" />
-  <meta property="article:modified_time" content="2026-08-14T10:46:08+00:00" />
+  <meta name="dc.modified" content="2026-08-14T11:06:58+00:00" />
+  <meta property="article:modified_time" content="2026-08-14T11:06:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -44,9 +44,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/3cf0675f0e8ee4f3ebc6e559476b542ff43315e2/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/3cf0675f0e8ee4f3ebc6e559476b542ff43315e2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/3cf0675f0e8ee4f3ebc6e559476b542ff43315e2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/6f9d924f9b4eaf746a864155b6732716b0b9adf1/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/6f9d924f9b4eaf746a864155b6732716b0b9adf1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/6f9d924f9b4eaf746a864155b6732716b0b9adf1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -176,15 +176,19 @@ The workflow used explicit controls for eight observed failure classes.
 
 ## Tooling constraints
 
-Four implementation constraints affected the workflow.
+Six implementation constraints affected the workflow.
 
-**The observed connector behavior was not transactional, and a success response was not confirmation.** Creating a record without an explicit parent placed it outside the intended database. The record remained reachable by URL but was absent from target-database queries. Moving it into the database could remove its structured properties. These failures occurred twice during manuscript preparation.
+**The Notion API and connector behavior observed in this implementation were not transactional, and a success response was not confirmation.** Creating a page without an explicit parent placed it outside the intended Notion database. The page remained reachable by URL but was absent from target-database queries. Moving it into the database could remove its structured properties. These failures occurred twice during manuscript preparation. Each create or move therefore required read-back verification of both the parent location and the retained properties.
+
+**Editing through the available Notion API was less direct than editing in the browser, particularly for long or structurally complex pages.** Broad replacements required exact anchors and read-back verification, and deletion safeguards correctly blocked changes that could remove child pages or databases. Targeted anchored replacements sometimes succeeded. The practical limitation was therefore not an inability to edit, but the need for narrow, verified operations, dated appended sections, or versioned successor pages rather than broad in-place rewriting.
+
+**Two Notion naming observations had different interpretations.** In a controlled test, renaming a database in the Notion interface did not update the title returned through the connector, so programmatic identity relied on the stable data-source identifier and content rather than the displayed title. Separately, after the User changed the displayed name of an uploaded file in the browser, the API continued to expose the filename recorded at upload. The latter may reflect file-metadata semantics rather than the same synchronization failure. Neither observation should be generalized beyond the tested objects.
+
+**The available Notion analysis path did not provide a simple, reliable bulk-export mechanism, and artifact references did not substitute for artifact transfer.** Cross-data-source aggregation required a higher subscription tier, and query results were returned into model context rather than directly to a file. Artifacts confined to one platform's chat or sandbox were unavailable to other participants. Describing or referencing an artifact in the Collaboration Log did not transfer its bytes; once an artifact was explicitly uploaded to Notion, committed to GitHub, or placed in another shared durable store, it could be retrieved and verified before handoff.
 
 **Review routing was stored as mutable state rather than as an append-only event.** Clearing a review flag after completing a review removed evidence that the review occurred. Retrospective analysis therefore undercounted completed review by an unknown amount.
 
 **Action initiation was not recoverable from repository metadata alone.** A change made through a User-controlled connector and a manual User push received the same repository attribution. The Collaboration Log was required to distinguish the two paths, and its accuracy depended on logging discipline.
-
-**The available analysis interface did not support a fully automated corpus export.** Cross-data-source aggregation required a higher subscription tier, and query results were returned into model context rather than directly to a file.
 
 
 ## Reflexive manuscript-production case

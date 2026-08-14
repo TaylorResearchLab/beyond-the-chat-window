@@ -1,7 +1,7 @@
 arXiv
 auditable
 checksums
-handoff
+Handoff
 handoffs
 integrations
 lifecycle
