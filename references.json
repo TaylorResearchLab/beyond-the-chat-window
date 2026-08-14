@@ -689,9 +689,9 @@
   {
     "id": "1EGmazS9k",
     "type": "article-journal",
-    "title": "The Blackboard Model of Problem Solving and the Evolution of Blackboard Architectures",
+    "title": "PART ONE: The Blackboard Model of Problem Solving and the Evolution of Blackboard Architectures",
     "DOI": "10.1609/aimag.v7i2.537",
-    "URL": "https://doi.org/10.1609/aimag.v7i2.537",
+    "URL": "https://dl.acm.org/doi/abs/10.1609/aimag.v7i2.537",
     "container-title": "AI Magazine",
     "volume": "7",
     "issue": "2",
@@ -699,14 +699,15 @@
     "issued": {
       "date-parts": [
         [
-          1986
+          1986,
+          6,
+          15
         ]
       ]
     },
     "author": [
       {
-        "given": "H. Penny",
-        "family": "Nii"
+        "literal": "H. Penny Nii"
       }
     ],
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: doi:10.1609/aimag.v7i2.537"

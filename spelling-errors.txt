@@ -2,7 +2,7 @@ arxiv
 checksums
 curation
 GPT
-Handoff
+handoff
 Handoffs
 lifecycle
 Nii
