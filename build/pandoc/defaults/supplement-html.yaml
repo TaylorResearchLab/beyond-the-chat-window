@@ -1,0 +1,22 @@
+# Pandoc defaults for the work-contract supplement HTML output.
+to: html5
+output-file: output/supplement-work-contract.html
+include-after-body:
+- build/themes/default.html
+- build/plugins/core.html
+- build/plugins/accordion.html
+- build/plugins/anchors.html
+- build/plugins/attributes.html
+- build/plugins/jump-to-first.html
+- build/plugins/lightbox.html
+- build/plugins/link-highlight.html
+- build/plugins/table-of-contents.html
+- build/plugins/tooltips.html
+- build/plugins/analytics.html
+- build/plugins/hypothesis.html
+- build/plugins/mathjax.html
+variables:
+  document-css: false
+  math: ""
+html-math-method:
+  method: mathjax
