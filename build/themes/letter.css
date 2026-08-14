@@ -4,6 +4,16 @@ img.inline_icon,
   display: none !important;
 }
 
+/* Keep the nine-entry bibliography together without creating an orphan page. */
+#refs {
+  font-size: 0.92em;
+  line-height: 1.22;
+}
+
+#refs .csl-entry {
+  margin-bottom: 0.45em;
+}
+
 @media print {
   @page {
     size: Letter;
