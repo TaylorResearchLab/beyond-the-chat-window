@@ -1,0 +1,10 @@
+# Pandoc defaults for the work-contract supplement PDF output.
+output-file: output/supplement-work-contract.pdf
+pdf-engine: weasyprint
+pdf-engine-opts:
+- '--presentational-hints'
+css:
+- build/themes/letter.css
+html-math-method:
+  method: webtex
+  url: 'https://latex.codecogs.com/svg.latex?'
