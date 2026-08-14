@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/TaylorResearchLab/beyond-the-chat-window/tree/gh-pages) branch hosts the contents of this directory at <https://TaylorResearchLab.github.io/beyond-the-chat-window/>.
-The permalink for this webpage version is <https://TaylorResearchLab.github.io/beyond-the-chat-window/v/46c8f6ce08847b5d30b9a0dd65dbf818508d26b3/>.
+The permalink for this webpage version is <https://TaylorResearchLab.github.io/beyond-the-chat-window/v/68b45c07aeef132947abf88284c408f7df94f02a/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://TaylorResearchLab.github.io/beyond-the-chat-window/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`46c8f6ce08847b5d30b9a0dd65dbf818508d26b3`](https://github.com/TaylorResearchLab/beyond-the-chat-window/commit/46c8f6ce08847b5d30b9a0dd65dbf818508d26b3).
+[`68b45c07aeef132947abf88284c408f7df94f02a`](https://github.com/TaylorResearchLab/beyond-the-chat-window/commit/68b45c07aeef132947abf88284c408f7df94f02a).
