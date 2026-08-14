@@ -1,0 +1,13 @@
+# Pandoc defaults shared by the work-contract supplement outputs.
+from: markdown
+input-file: output/supplement/manuscript.md
+filters:
+- pandoc-fignos
+- pandoc-eqnos
+- pandoc-tablenos
+- pandoc-manubot-cite
+- citeproc
+wrap: preserve
+metadata:
+  csl: build/assets/style.csl
+  link-citations: true
