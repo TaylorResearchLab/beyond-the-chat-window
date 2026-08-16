@@ -6,7 +6,7 @@ This repository contains the Manubot source for a methods paper on a human-gover
 
 The main source is in [`content`](content). GitHub Actions builds the formatted manuscript on pull requests and on the default branch.
 
-The supplement source is in [`supplement`](supplement). The same workflow produces separate HTML and US Letter PDF outputs containing a quick-start implementation guide, completed synthetic work contract, example Collaboration Log record, example handoff, and reusable template.
+The supplement source is in [`supplement`](supplement). The same workflow produces separate HTML and US Letter PDF outputs containing a quick-start implementation guide, completed synthetic work contract, sanitized Collaboration Log schema, example record, structured handoff, and reusable templates.
 
 ## Workflow
 
@@ -25,8 +25,6 @@ See [`MANUSCRIPT_WORKFLOW.md`](MANUSCRIPT_WORKFLOW.md), [`CONTRIBUTING.md`](CONT
 - PDF manuscript: `https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf`
 - Implementation-guide and work-contract supplement PDF: `https://TaylorResearchLab.github.io/beyond-the-chat-window/supplement-work-contract.pdf`
 - Implementation-guide and work-contract supplement HTML: `https://TaylorResearchLab.github.io/beyond-the-chat-window/supplement-work-contract.html`
-
-A public Notion Collaboration Log template remains a planned companion resource and is not yet represented as an active URL.
 
 ## License
 
