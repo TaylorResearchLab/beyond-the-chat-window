@@ -81,10 +81,11 @@ content/07.tooling-limits.md:13:GPT
 content/09.limitations.md:7:GPT
 content/09.limitations.md:7:substitutive
 content/09.limitations.md:7:workstreams
-content/09.limitations.md:11:workstreams
-content/09.limitations.md:17:APIs
+content/09.limitations.md:9:workstream
+content/09.limitations.md:13:workstreams
 content/09.limitations.md:19:APIs
-content/09.limitations.md:19:ChatGPT
+content/09.limitations.md:21:APIs
+content/09.limitations.md:21:ChatGPT
 content/10.future-work.md:3:APIs
 content/10.future-work.md:5:reproducibility
 content/10.future-work.md:9:reproducibility

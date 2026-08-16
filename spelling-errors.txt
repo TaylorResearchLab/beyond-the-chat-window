@@ -6,7 +6,7 @@ ecb
 Findable
 GPT
 handoff
-handoffs
+Handoffs
 integrations
 Nii
 Permissioned
@@ -22,4 +22,5 @@ TaylorResearchLab
 UI
 undercounts
 workspaces
+workstream
 workstreams

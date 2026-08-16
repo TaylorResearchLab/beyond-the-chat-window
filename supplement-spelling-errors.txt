@@ -2,7 +2,7 @@ another’s
 arXiv
 auditable
 Checkboxes
-checksums
+Checksums
 handoff
 handoffs
 integrations

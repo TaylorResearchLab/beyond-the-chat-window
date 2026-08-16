@@ -53,8 +53,8 @@
   <meta name="dc.date" content="2026-08-16" />
   <meta name="citation_publication_date" content="2026-08-16" />
   <meta property="article:published_time" content="2026-08-16" />
-  <meta name="dc.modified" content="2026-08-16T04:49:17+00:00" />
-  <meta property="article:modified_time" content="2026-08-16T04:49:17+00:00" />
+  <meta name="dc.modified" content="2026-08-16T06:11:43+00:00" />
+  <meta property="article:modified_time" content="2026-08-16T06:11:43+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/778a835759eaa92e5d6560460c6f40c61aa59fbf/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/778a835759eaa92e5d6560460c6f40c61aa59fbf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/778a835759eaa92e5d6560460c6f40c61aa59fbf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/4bdd99fef79f79839f27d7c19da6a8f8cca44321/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/4bdd99fef79f79839f27d7c19da6a8f8cca44321/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/4bdd99fef79f79839f27d7c19da6a8f8cca44321/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -366,6 +366,7 @@ Department of Biomedical and Health Informatics, Children’s Hospital of Philad
 <p>The workflow supported sustained work across separate AI platforms while keeping the User responsible for scientific direction, evidence, files, and acceptance. Its contribution is a practical method for coordination and record keeping, not an autonomous multi-agent system.</p>
 <h2 id="project-wide-context-integration">Project-wide context integration</h2>
 <p>The AI contributions were modular rather than substitutive. GPT and Claude could perform substantial scientific, computational, review, and writing tasks, but no individual session maintained the complete project-wide scientific frame. The User connected results across workstreams, recognized omitted constraints, identified conflicts among local conclusions, and determined how each contribution affected the broader hypothesis structure and project trajectory. In this implementation, removing the User would not have produced an autonomous version of the same workflow. It would have removed the participant responsible for integrating distributed context.</p>
+<p>The User’s integrative role was dynamic rather than limited to preserving a fixed context. As new data, failed assumptions, validation results, or technical constraints changed the working hypothesis or project direction, the map of relevant context changed with them. New findings changed not only what had to be remembered, but also which records were upstream, which assumptions governed, which artifacts had to be revisited, and which workstream required attention. The User had to interpret those shifts, realign the links among hypotheses, evidence, code, decisions, and outputs, and then revise which AI session should act, what context it should retrieve, and what role it should play. Project context was therefore not a fixed package to be preserved and reloaded. The User continually re-specified the scientific intent and the project state that should govern as evidence accumulated.</p>
 <p>Context availability alone did not solve the problem. In the systems studied, the limiting issue was not only finite context capacity, but the absence of a reliable project-level process for deciding which of many available records, hypotheses, and artifacts should be retrieved and integrated for a particular task. Information could be accessible in the shared record but not retrieved or used unless the User directed attention to it. At the same time, requiring every assistant to reread the entire project before every task would reduce efficiency and could weaken focus on the immediate assignment. The workflow therefore relied on selective context assembly. The User identified the current task, the governing project state, and the relevant upstream dependencies; the assistant then worked within that bounded context.</p>
 <p>The User did not retain every project detail in unaided memory. The shared record functioned as external memory. The distinctive human role was to maintain a map of dependencies across hypotheses and workstreams and decide which portions of that external memory had to be brought together. In this single-user case, that process gave the User a broader effective project-memory horizon than any individual AI session. A larger nominal context window alone would not necessarily solve the problem if the system could not identify which project dependencies needed to be retrieved and reconciled. Loading the entire project indiscriminately could instead introduce irrelevant material and weaken task focus.</p>
 <p>These observations do not establish that no future AI architecture could perform project-wide scientific integration. Replacing the User’s role would require a qualitatively different system with persistent cross-session memory, directed retrieval across heterogeneous stores, access-aware project management, hypothesis-level planning, detection of missing context, and accountable scientific judgment. Such a system was not evaluated here.</p>
