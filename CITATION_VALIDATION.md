@@ -8,16 +8,16 @@ A successful Manubot build or resolved identifier is not evidence that a referen
 
 | Citation key | Primary record checked | Bibliographic match | Claim supported | Status |
 | --- | --- | --- | --- | --- |
-| `arxiv:2308.08155` | https://arxiv.org/abs/2308.08155 | AutoGen; Wu et al.; arXiv 2308.08155 | Multi-agent orchestration framework | Validated |
-| `arxiv:2308.00352` | https://arxiv.org/abs/2308.00352 | MetaGPT; Hong et al.; arXiv 2308.00352 | Role-based multi-agent software workflow | Validated |
-| `arxiv:2307.07924` | https://arxiv.org/abs/2307.07924 | ChatDev; Qian et al.; arXiv 2307.07924 | Communicative multi-agent software workflow | Validated |
-| `doi:10.1038/sdata.2016.18` | https://www.nature.com/articles/sdata201618 | Wilkinson et al.; Scientific Data 3:160018; DOI exact | FAIR principles and machine-actionable research objects | Validated |
+| `arxiv:2308.08155` | https://arxiv.org/abs/2308.08155 | AutoGen; Wu et al.; arXiv 2308.08155 | Programmed multi-agent orchestration framework that can combine LLMs, human input, and tools | Validated by GPT and Claude after manuscript rewording |
+| `arxiv:2308.00352` | https://arxiv.org/abs/2308.00352 | MetaGPT; Hong et al.; arXiv 2308.00352 | Role-based multi-agent software workflow using standardized operating procedures | Validated by GPT and Claude |
+| `arxiv:2307.07924` | https://arxiv.org/abs/2307.07924 | ChatDev; Qian et al.; arXiv 2307.07924 | Communicative multi-agent software workflow with specialized agents guided in what and how to communicate | Validated by GPT and Claude |
+| `doi:10.1038/sdata.2016.18` | https://www.nature.com/articles/sdata201618 | Wilkinson et al.; Scientific Data 3:160018; DOI exact | FAIR principles for digital research objects and machine-actionable research records | Validated by GPT and Claude |
 | `doi:10.1145/356810.356816` | https://dl.acm.org/doi/10.1145/356810.356816 and https://mas.cs.umass.edu/pub/paper_detail.php/229 | Erman, Hayes-Roth, Lesser, and Reddy; ACM Computing Surveys 12(2):213-253; DOI exact | Hearsay-II as a blackboard-system precedent | Validated |
 | `doi:10.1609/aimag.v7i2.537` | User-supplied ACM landing page https://dl.acm.org/doi/abs/10.1609/aimag.v7i2.537; official AI Magazine record https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/537; publisher metadata https://onlinelibrary.wiley.com/doi/abs/10.1609/aimag.v7i2.537 | H. Penny Nii; *PART ONE: The Blackboard Model of Problem Solving and the Evolution of Blackboard Architectures*; AI Magazine 7(2):38-53; published 1986; DOI `10.1609/aimag.v7i2.537` exact | Blackboard model, knowledge-source, shared-workspace, and control-architecture precedent | Validated by User and GPT |
 | `arxiv:2505.13400` | https://arxiv.org/abs/2505.13400 | Robin; Ghareeb et al.; arXiv 2505.13400 | Multi-agent system for semi-autonomous scientific discovery | Validated |
 | `arxiv:2503.05854` | https://arxiv.org/abs/2503.05854 | Pantiukhin et al.; arXiv 2503.05854 | Multi-agent workflow for Earth-science data access and analysis | Validated |
 | `arxiv:2507.14034` | https://arxiv.org/abs/2507.14034 | Wulf, Meierhofer, and Hannich; *Architecting Human-AI Cocreation for Technical Services: Interaction Modes and Contingency Factors*; arXiv 2507.14034 | Taxonomy distinguishing Human-in-Command, in which AI proposals require mandatory human approval, from Human-in-the-Loop, in which the agent escalates under uncertainty | Validated by Claude and GPT |
-| `doi:10.1371/journal.pcbi.1007128` | https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007128 | Himmelstein et al.; PLOS Computational Biology 15(6):e1007128; DOI exact | Manubot versioned collaborative manuscript workflow | Validated |
+| `doi:10.1371/journal.pcbi.1007128` | https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007128 | Himmelstein et al.; PLOS Computational Biology 15(6):e1007128; DOI exact | Manubot versioned collaborative manuscript workflow and automated build process | Validated by GPT and Claude |
 
 ## Public-link audit
 
@@ -27,4 +27,4 @@ https://github.com/TaylorResearchLab/beyond-the-chat-window
 
 ## Merge gate
 
-A citation or public URL with status other than **Validated** blocks merge and release. Claude and the User should independently spot-check this ledger against the rendered bibliography and public links.
+A citation or public URL with status other than **Validated** or an explicit multi-participant validation blocks merge and release. The User should spot-check this ledger against the rendered bibliography and public links before release.
