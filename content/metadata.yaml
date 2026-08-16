@@ -1,5 +1,5 @@
 ---
-title: "Beyond the Chat Window: User-Mediated Collaboration Across AI Platforms"
+title: "Beyond the Chat Window: Building and Evaluating a Human-Governed Workflow for Scientific Collaboration Across AI Platforms"
 date: null
 keywords:
   - artificial intelligence
@@ -7,6 +7,7 @@ keywords:
   - user-mediated collaboration
   - human-governed research
   - scientific workflow
+  - implementation guide
   - FAIR
   - Manubot
   - reproducibility
