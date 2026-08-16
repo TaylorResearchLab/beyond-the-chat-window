@@ -1,4 +1,4 @@
-# Beyond the Chat Window: User-Mediated Collaboration Across AI Platforms
+# Beyond the Chat Window: Building and Evaluating a Human-Governed Workflow for Scientific Collaboration Across AI Platforms
 
 This repository contains the Manubot source for a methods paper on a human-governed collaboration workflow involving multiple named AI sessions.
 
@@ -6,7 +6,7 @@ This repository contains the Manubot source for a methods paper on a human-gover
 
 The main source is in [`content`](content). GitHub Actions builds the formatted manuscript on pull requests and on the default branch.
 
-The work-contract supplement source is in [`supplement`](supplement). The same workflow produces separate HTML and US Letter PDF outputs containing a completed synthetic work contract, example Collaboration Log record, example handoff, and reusable template.
+The supplement source is in [`supplement`](supplement). The same workflow produces separate HTML and US Letter PDF outputs containing a quick-start implementation guide, completed synthetic work contract, example Collaboration Log record, example handoff, and reusable template.
 
 ## Workflow
 
@@ -23,8 +23,8 @@ See [`MANUSCRIPT_WORKFLOW.md`](MANUSCRIPT_WORKFLOW.md), [`CONTRIBUTING.md`](CONT
 
 - HTML manuscript: `https://TaylorResearchLab.github.io/beyond-the-chat-window/`
 - PDF manuscript: `https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf`
-- Work-contract supplement PDF: `https://TaylorResearchLab.github.io/beyond-the-chat-window/supplement-work-contract.pdf`
-- Work-contract supplement HTML: `https://TaylorResearchLab.github.io/beyond-the-chat-window/supplement-work-contract.html`
+- Implementation-guide and work-contract supplement PDF: `https://TaylorResearchLab.github.io/beyond-the-chat-window/supplement-work-contract.pdf`
+- Implementation-guide and work-contract supplement HTML: `https://TaylorResearchLab.github.io/beyond-the-chat-window/supplement-work-contract.html`
 
 A public Notion Collaboration Log template remains a planned companion resource and is not yet represented as an active URL.
 
