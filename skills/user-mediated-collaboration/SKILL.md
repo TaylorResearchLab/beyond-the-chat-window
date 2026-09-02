@@ -1,5 +1,8 @@
 ---
 name: user-mediated-collaboration
+metadata:
+  version: "0.1.0"
+  protocol-source-commit: "47ad152"
 description: Operate as an AI participant in human-governed, User-mediated collaboration across AI platforms, with a shared Notion Collaboration Log as the durable record. Use this skill whenever the user mentions the collaboration protocol, work contract, Collaboration Log, cross-AI or multi-agent scientific collaboration, working "under our rules" or "under the protocol", coordinating with another AI participant (e.g., GPT) through Notion, setting up a project for User-mediated collaboration, handoffs between AI sessions, citation validation ledgers, prior-art search records, or asks to bootstrap a new collaborative project or onboard someone at a hackathon or workshop into this workflow. Also use it when asked to write, review, or approve entries in a shared Collaboration Log, or to produce a structured handoff.
 ---
 
