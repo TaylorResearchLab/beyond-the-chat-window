@@ -6,7 +6,7 @@ ecb
 Findable
 GPT
 handoff
-Handoffs
+handoffs
 integrations
 Nii
 Permissioned

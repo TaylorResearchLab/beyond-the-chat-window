@@ -8,7 +8,7 @@ keywords:
 - reproducibility
 - governance
 lang: en-US
-date-meta: '2026-08-16'
+date-meta: '2026-09-04'
 author-meta:
 - Deanne M. Taylor
 header-includes: |
@@ -22,11 +22,11 @@ header-includes: |
   <meta name="citation_title" content="Supplementary Note S1: Example Work Contract for User-Mediated Cross-Platform Research" />
   <meta property="og:title" content="Supplementary Note S1: Example Work Contract for User-Mediated Cross-Platform Research" />
   <meta property="twitter:title" content="Supplementary Note S1: Example Work Contract for User-Mediated Cross-Platform Research" />
-  <meta name="dc.date" content="2026-08-16" />
-  <meta name="citation_publication_date" content="2026-08-16" />
-  <meta property="article:published_time" content="2026-08-16" />
-  <meta name="dc.modified" content="2026-08-16T06:11:44+00:00" />
-  <meta property="article:modified_time" content="2026-08-16T06:11:44+00:00" />
+  <meta name="dc.date" content="2026-09-04" />
+  <meta name="citation_publication_date" content="2026-09-04" />
+  <meta property="article:published_time" content="2026-09-04" />
+  <meta name="dc.modified" content="2026-09-04T19:37:24+00:00" />
+  <meta property="article:modified_time" content="2026-09-04T19:37:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -42,9 +42,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/4bdd99fef79f79839f27d7c19da6a8f8cca44321/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/4bdd99fef79f79839f27d7c19da6a8f8cca44321/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/4bdd99fef79f79839f27d7c19da6a8f8cca44321/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/d551f92a8d6a61b1ace160db544d34b517d9e51a/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/d551f92a8d6a61b1ace160db544d34b517d9e51a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/beyond-the-chat-window/v/d551f92a8d6a61b1ace160db544d34b517d9e51a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
