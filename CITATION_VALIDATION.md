@@ -1,6 +1,6 @@
 # Citation validation ledger
 
-**Rule One:** only cite validated articles.
+**`REFERENCE-VALIDATION`:** only cite validated articles.
 
 A successful Manubot build or resolved identifier is not evidence that a reference exists, is bibliographically correct, or supports the attached claim. Before merge, each citation must be checked against a primary publication record for title, authorship, date, identifier, and relevance.
 

@@ -15,7 +15,7 @@ The supplement source is in [`supplement`](supplement). The same workflow produc
 - The User actively mediates cross-agent transitions and retains merge and publication authority.
 - GPT and Claude may alternate lead and review roles.
 - Each material branch, pull request, commit, review, and merge is recorded in Notion.
-- RULE ONE requires every scholarly citation and public URL to be validated before merge.
+- `REFERENCE-VALIDATION` requires every scholarly citation and public URL to be validated before merge.
 
 See [`MANUSCRIPT_WORKFLOW.md`](MANUSCRIPT_WORKFLOW.md), [`CONTRIBUTING.md`](CONTRIBUTING.md), and [`CITATION_VALIDATION.md`](CITATION_VALIDATION.md).
 
