@@ -1,0 +1,31 @@
+{
+  "name": "SCUTER",
+  "expansion": "Scientific Collaboration for User-directed, Traceable, Evidence-based Research",
+  "repository": "https://github.com/TaylorResearchLab/SCUTER",
+  "migration_commit": "368726bbebbd9eaa024029afc665850c6a49cd55",
+  "original_paper_commit": "32be4c53532074e7a1be46f7706fc7e0c5701657",
+  "maintained_protocol_path": "protocol/01.work-contract.md",
+  "historical_package_path": "skills/user-mediated-collaboration-v0.1.0.skill",
+  "historical_package_version": "0.1.0",
+  "historical_package_protocol_snapshot": "47ad152",
+  "historical_package_sha256": "b15724466f3d0da5cc220a52e5521b2e7de747efb79e5af37a028ebb5d479deb",
+  "paper_supplement_snapshots": [
+    {
+      "paper_path": "supplement/01.work-contract.md",
+      "scuter_path": "protocol/01.work-contract.md",
+      "git_blob_sha1": "013afe2ffac743eabb1c9ab4a23b8351a1768710"
+    },
+    {
+      "paper_path": "supplement/00.implementation-guide.md",
+      "scuter_path": "docs/implementation-guide.md",
+      "git_blob_sha1": "36d9b9fd5aae83524cc91aa954b6e0a5de7c84cf"
+    },
+    {
+      "paper_path": "supplement/00a.provenance-and-interpretation.md",
+      "scuter_path": "docs/provenance-and-interpretation.md",
+      "git_blob_sha1": "31771f5aa5a1c14851cf7bc9ad24098f27886720"
+    }
+  ],
+  "maintenance_boundary": "Subsequent protocol and Skill development is maintained in SCUTER. The paper retains its version-pinned supplement; update that snapshot only through an explicit versioned revision.",
+  "release_status": "Development migration; no new formal SCUTER release. The older package has not been reconciled with the current protocol."
+}
