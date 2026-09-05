@@ -1,9 +1,7 @@
-# SCUTER materials have moved
+# SCUTER companion implementation
 
-The maintained protocol, reusable Skill source, and packaged artifacts are in [TaylorResearchLab/SCUTER](https://github.com/TaylorResearchLab/SCUTER).
+[SCUTER](https://github.com/TaylorResearchLab/SCUTER) provides the reusable protocol, Skill, templates, and adoption guidance for scientist-directed AI collaboration.
 
-The [verified migration snapshot](https://github.com/TaylorResearchLab/SCUTER/tree/368726bbebbd9eaa024029afc665850c6a49cd55) preserves the original source and `user-mediated-collaboration-v0.1.0.skill` unchanged. Source paths and content hashes are recorded in SCUTER's `provenance/import-plan.json` and `provenance/import-report.json`.
+The implementation described in this paper is [development version 0.2.0 at commit 9835a3d](https://github.com/TaylorResearchLab/SCUTER/tree/9835a3d0c9adbc32ea99f6ff930f0b41bbaedc39). Use the [Skill package](https://github.com/TaylorResearchLab/SCUTER/blob/9835a3d0c9adbc32ea99f6ff930f0b41bbaedc39/dist/scuter-v0.2.0.skill?raw=true) or the [complete Markdown instructions](https://github.com/TaylorResearchLab/SCUTER/blob/9835a3d0c9adbc32ea99f6ff930f0b41bbaedc39/dist/scuter-v0.2.0.md?raw=true), according to the selected application's supported interface.
 
-The old package retains its historical identity and protocol snapshot `47ad152`. It has not been regenerated against the newer protocol. This relocation is not a new formal release.
-
-This repository retains the paper's supplementary snapshot under `supplement/` and its original Git history. See [`SCUTER_SNAPSHOT.json`](../SCUTER_SNAPSHOT.json) for the exact version linkage. Do not resume active Skill development in this directory.
+The paper's implementation guide and protocol are in [`supplement/`](../supplement/). [`SCUTER_SNAPSHOT.json`](../SCUTER_SNAPSHOT.json) identifies the exact SCUTER revision and package checksums separately from those supplementary files. Package installation and behavior require testing in the adopting application; the frozen retrospective study did not evaluate this development package.

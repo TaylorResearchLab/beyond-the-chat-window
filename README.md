@@ -8,11 +8,11 @@ The main manuscript source is in [`content`](content). It separates workflow des
 
 The paper's implementation guide, work contract, schemas, synthetic examples, and templates remain in [`supplement`](supplement) as the version described by the manuscript. The build produces separate HTML and US Letter PDF supplement outputs.
 
-**Reusable protocol and Skill development now belongs in [TaylorResearchLab/SCUTER](https://github.com/TaylorResearchLab/SCUTER).** SCUTER stands for **Scientific Collaboration for User-directed, Traceable, Evidence-based Research**. This paper repository is not a second maintenance home for the Skill.
+[SCUTER](https://github.com/TaylorResearchLab/SCUTER), **Scientific Collaboration for User-directed, Traceable, Evidence-based Research**, is the companion implementation. It provides a reusable protocol, adoption guides, templates, a Skill package, and complete Markdown instructions for scientist-directed AI collaboration.
 
-The [verified migration snapshot](https://github.com/TaylorResearchLab/SCUTER/tree/368726bbebbd9eaa024029afc665850c6a49cd55) preserves the original `user-mediated-collaboration` v0.1.0 source and package. Its embedded protocol snapshot `47ad152` predates later protocol revisions. Migration does not make that package a synchronized SCUTER release. Reconciliation, package regeneration, and platform testing remain development work; formal release and announcement remain deferred until the arXiv preprint is posted.
+The development version described by this manuscript is [SCUTER 0.2.0 at commit 9835a3d](https://github.com/TaylorResearchLab/SCUTER/tree/9835a3d0c9adbc32ea99f6ff930f0b41bbaedc39). The [Skill package](https://github.com/TaylorResearchLab/SCUTER/blob/9835a3d0c9adbc32ea99f6ff930f0b41bbaedc39/dist/scuter-v0.2.0.skill?raw=true) and [complete Markdown instructions](https://github.com/TaylorResearchLab/SCUTER/blob/9835a3d0c9adbc32ea99f6ff930f0b41bbaedc39/dist/scuter-v0.2.0.md?raw=true) are available at that revision. The retrospective corpus characterizes the workflow, not the behavior of this later package. Formal release and announcement remain deferred until the arXiv preprint is posted.
 
-[`SCUTER_SNAPSHOT.json`](SCUTER_SNAPSHOT.json) records the exact destination revision, package hash, and correspondence with the retained supplement. Future protocol changes should be made in SCUTER. Update this paper's supplementary snapshot only through an explicit versioned revision.
+[`SCUTER_SNAPSHOT.json`](SCUTER_SNAPSHOT.json) records the exact implementation revision and distribution checksums. It identifies the retained paper supplement separately; the paper's guide and the independently maintained SCUTER guides need not have identical wording.
 
 ## Manuscript collaboration
 
