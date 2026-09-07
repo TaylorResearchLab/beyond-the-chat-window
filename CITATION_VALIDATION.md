@@ -175,3 +175,29 @@ The User supplied the Manubot artifact for run 34052335204 (run 138), triggered 
 The AI-assistance disclosure change proposed earlier is **withheld**. The distinction between an observed interface label, an assistant's self-report, and provider-confirmed routing metadata is sound in principle, but the record does not establish that the User personally observed the later model labels, and an assistant's statement repeated in a log is not an independent interface observation. The existing disclosure is unchanged, which is not an endorsement of its current wording as final. Two options are before the User: confirm the specific labels and their evidential basis, or adopt a platform-level disclosure that preserves the known roles of ChatGPT and Claude while stating that exact model identities were not systematically recorded for all sessions.
 
 The figure callout proposed earlier is also omitted, because `2d1581e` already introduces the three functions with `(Figure @fig:workflow)`. Adding a second reference would produce two callouts for one figure.
+
+## Horvitz publisher resolution closed by the User: 2026-09-06
+
+The Horvitz DOI resolution recorded above as an unresolved boundary is now closed. The User reports that both DOI links in the rendered manuscript, the shortDOI in the reference line and the full `10.1145/302979.303030` identifier, resolve correctly to the publisher page at `https://dl.acm.org/doi/10.1145/302979.303030`.
+
+This is a User observation, and it is the only route by which this check could be closed: ACM disallows automated access, so neither AI participant could resolve the identifier at the publisher, and both recorded that limitation rather than working around it. The resolution also confirms the shortDOI redirect in the rendered bibliography, which no participant had separately checked.
+
+The statement in the verification-strata subsection above that "Horvitz's DOI has not been resolved at the publisher by either participant" was accurate when written and is now superseded by this dated entry. Claim support was already confirmed independently by both AI participants from the author-hosted CHI 1999 record and full paper, and the identifier string was corroborated against multiple independent published bibliographies. With publisher resolution added, the bibliographic and claim checks for this reference are both complete.
+
+Of the two boundaries recorded in that subsection, one is now closed. The Mycelium reinspection-scope item remains open.
+
+## Mycelium reinspection-scope item closed: 2026-09-06
+
+The remaining boundary recorded in the verification-strata subsection is now closed. Claude read the v1 full text at `https://arxiv.org/html/2607.13220v1`, which is accessible; the earlier record that Claude's pass reached only the abstract reflected an incomplete retrieval attempt, not an access limitation, and that should not have been recorded as a boundary without trying the HTML edition.
+
+Both clauses of the manuscript sentence are supported by the cited version:
+
+- **Typed provenance-aware state.** Section 2.1 defines the active context graph with a closed entry-type vocabulary whose members include `observation`, `interpretation`, and `hypothesis`, alongside `dataset`, `finding`, `open_question`, `recommendation`, and `experiment_proposal`. Edges carry provenance semantics such as `generated_by`, `derived_from`, and `supports`, linking each claim to the data, user, agent, or tool execution that produced it.
+- **Cross-session routing.** Section 2.1 names cross-user state routing as one of three runtime operations, moving context from an originating participant to the participant whose analysis it impacts without explicit request. Section 2.2 describes participants working through standard AI chat clients connected by the Model Context Protocol.
+- **Autonomous analytical work.** Section 2.2 is titled "Runtime infrastructure for autonomous analytical execution" and describes server-side dynamic code generation in a sandboxed Python environment with automated error recovery. Section 2.3, under Bounded autonomy, states that the runtime launches autonomous exploratory analyses between active user sessions and that the agent autonomously plans and executes corrective tasks.
+
+The clause GPT flagged as outside Claude's earlier pass is therefore supported on direct reading, and GPT's earlier full-text check is confirmed rather than merely inherited. Both participants have now read the primary text for this claim.
+
+**A cross-reference worth recording.** Mycelium's section 4.1 cites Horvitz's mixed-initiative principles, the same reference this manuscript cites, for calibrating agentic proactivity against user review burden. Independent use of that source for the same design problem corroborates its relevance here.
+
+**A prior-art observation, recorded for the separate `PRIOR-ART-LINEAGE` program rather than acted on here.** Mycelium's supplementary note gives a formal treatment of two of the load-bearing assumptions flagged in the project's prior-art alert. Its irreducibility argument states that reducing error through agreement requires estimators with conditionally independent error profiles, that a single model evaluating every domain under one set of weights produces correlated errors and cannot corroborate itself at any scale, and that an independent participant is valuable precisely because its failure modes differ. This bears directly on the assumption that two providers are less likely to share a failure mode, and on the assumption that agreement following exposure is not independent corroboration. The source is already in this manuscript's bibliography. Prior art for those assumptions therefore exists inside the current reference list and does not require a new search to locate, though the recorded searches under CLAIMS coverage remain outstanding and are not discharged by this note.
