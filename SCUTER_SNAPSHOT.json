@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "name": "SCUTER",
+  "expansion": "Scientific Collaboration for User-directed, Traceable, Evidence-based Research",
+  "repository": "https://github.com/TaylorResearchLab/SCUTER",
+  "commit": "9835a3d0c9adbc32ea99f6ff930f0b41bbaedc39",
+  "version": "0.2.0",
+  "status": "development",
+  "protocol_source": {
+    "path": "protocol/01.work-contract.md",
+    "sha256": "4d896ba70869a63b942c17199fc958d114c4d8aadc099434418227bf19cd99cc"
+  },
+  "package_manifest_path": "skills/scuter/MANIFEST.json",
+  "distributions": [
+    {
+      "path": "dist/scuter-v0.2.0.skill",
+      "sha256": "dca25b648c4abae91aac802ba516b4ed43989186d24079fdaf47d6302ddbc454"
+    },
+    {
+      "path": "dist/scuter-v0.2.0.md",
+      "sha256": "e9a79e349533faca6287ae82d1beb7fc65ed3385ee1a1d1b05d09c96db8e449b"
+    }
+  ],
+  "paper_supplement_files": [
+    {
+      "path": "supplement/01.work-contract.md",
+      "git_blob_sha1": "013afe2ffac743eabb1c9ab4a23b8351a1768710"
+    },
+    {
+      "path": "supplement/00.implementation-guide.md",
+      "git_blob_sha1": "36d9b9fd5aae83524cc91aa954b6e0a5de7c84cf"
+    },
+    {
+      "path": "supplement/00a.provenance-and-interpretation.md",
+      "git_blob_sha1": "31771f5aa5a1c14851cf7bc9ad24098f27886720"
+    }
+  ],
+  "scope": "SCUTER is the companion implementation. The paper retains its own supplementary files, identified separately above; they are not asserted to be byte-identical to the independently versioned SCUTER documentation.",
+  "evaluation_boundary": "The frozen retrospective corpus describes the workflow, not this later Skill package. File-integrity checks are not host-platform behavioral evaluation."
+}

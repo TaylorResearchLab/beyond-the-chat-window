@@ -44,5 +44,82 @@
     "author": [
       {"literal": "H. Penny Nii"}
     ]
+  },
+  {
+    "id": "url:https://www.w3.org/TR/2013/REC-prov-dm-20130430",
+    "type": "report",
+    "title": "PROV-DM: The PROV Data Model",
+    "URL": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+    "publisher": "World Wide Web Consortium",
+    "genre": "W3C Recommendation",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          30
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "World Wide Web Consortium"
+      }
+    ],
+    "editor": [
+      {
+        "given": "Luc",
+        "family": "Moreau"
+      },
+      {
+        "given": "Paolo",
+        "family": "Missier"
+      }
+    ]
+  },
+  {
+    "id": "arxiv:2602.19810v1",
+    "type": "report",
+    "title": "OpenClaw, Moltbook, and ClawdLab: From Agent-Only Social Networks to Autonomous Scientific Research",
+    "URL": "https://arxiv.org/abs/2602.19810v1",
+    "number": "2602.19810v1",
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "version": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          23
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Lukas",
+        "family": "Weidener"
+      },
+      {
+        "given": "Marko",
+        "family": "Brkić"
+      },
+      {
+        "given": "Mihailo",
+        "family": "Jovanović"
+      },
+      {
+        "given": "Ritvik",
+        "family": "Singh"
+      },
+      {
+        "given": "Emre",
+        "family": "Ulgac"
+      },
+      {
+        "given": "Aakaash",
+        "family": "Meduri"
+      }
+    ]
   }
 ]

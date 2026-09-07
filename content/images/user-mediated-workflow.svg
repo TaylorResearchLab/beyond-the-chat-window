@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
   <title id="title">User-mediated collaboration workflow</title>
-  <desc id="desc">GPT and Claude exchange shared project state through Notion. The User assigns and reviews work, governs accepted state, controls GitHub merge, and exclusively authorizes protected execution. Optional agent repository access may be public read-only access or a scoped connector and varies by platform / session. Neither agent connects directly to protected compute.</desc>
+  <desc id="desc">GPT and Claude exchange shared project state through Notion. The User assigns and reviews work, governs accepted state, controls GitHub merge, and authorizes final runs in a User-controlled computing environment. Optional agent repository access may be public read-only access or a scoped connector and varies by platform / session. Neither agent connects directly to that computing environment.</desc>
   <rect x="0" y="0" width="1200" height="780" fill="#ffffff"/>
   <defs>
     <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
@@ -48,9 +48,9 @@
   <text x="290" y="676" class="label node-sub">pull requests and CI</text>
 
   <rect x="740" y="570" width="340" height="140" rx="16" fill="#e6e6e6" stroke="#222222" stroke-width="2.5"/>
-  <text x="910" y="611" class="label node-title">PROTECTED</text>
-  <text x="910" y="641" class="label node-title">COMPUTE</text>
-  <text x="910" y="676" class="label node-sub">private data and authoritative runs</text>
+  <text x="910" y="611" class="label node-title">USER-CONTROLLED</text>
+  <text x="910" y="641" class="label node-title">COMPUTING</text>
+  <text x="910" y="676" class="label node-sub">authoritative runs and outputs</text>
 
   <!-- Optional platform-specific repository access -->
   <rect x="475" y="590" width="250" height="100" rx="14" fill="#fafafa" stroke="#66717d" stroke-width="2" stroke-dasharray="8 6"/>
@@ -92,7 +92,7 @@
   <path d="M170,570 C220,505 310,455 420,410" class="edge"/>
   <text x="260" y="475" class="edge-label">diffs / CI</text>
 
-  <!-- User and protected compute, routed in separate lanes -->
+  <!-- User and computing environment, routed in separate lanes -->
   <path d="M780,430 C850,475 900,525 930,570" class="edge"/>
   <text x="865" y="535" class="edge-label">authorize / execute</text>
   <path d="M1030,570 C980,505 890,455 780,410" class="edge"/>
